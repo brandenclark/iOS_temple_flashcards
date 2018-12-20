@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84692C5A217E8A19008A904A /* TempleCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84692C59217E8A19008A904A /* TempleCardCell.swift */; };
+		84D0B5CA2178397700031D69 /* TempleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0B5C92178397700031D69 /* TempleCardView.swift */; };
+		84D0B5CC21783DB200031D69 /* TempleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0B5CB21783DB200031D69 /* TempleCard.swift */; };
+		84D0B5CE2178426900031D69 /* TempleDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0B5CD2178426900031D69 /* TempleDeck.swift */; };
+		84D0B5D02178D80C00031D69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0B5CF2178D80C00031D69 /* ViewController.swift */; };
 		84DA62B6216F9F95003703A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA62B5216F9F95003703A4 /* AppDelegate.swift */; };
-		84DA62B8216F9F95003703A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA62B7216F9F95003703A4 /* ViewController.swift */; };
 		84DA62BB216F9F95003703A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA62B9216F9F95003703A4 /* Main.storyboard */; };
 		84DA62BD216F9F96003703A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DA62BC216F9F96003703A4 /* Assets.xcassets */; };
 		84DA62C0216F9F96003703A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA62BE216F9F96003703A4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84692C59217E8A19008A904A /* TempleCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleCardCell.swift; sourceTree = "<group>"; };
+		84D0B5C92178397700031D69 /* TempleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleCardView.swift; sourceTree = "<group>"; };
+		84D0B5CB21783DB200031D69 /* TempleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleCard.swift; sourceTree = "<group>"; };
+		84D0B5CD2178426900031D69 /* TempleDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleDeck.swift; sourceTree = "<group>"; };
+		84D0B5CF2178D80C00031D69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84DA62B2216F9F95003703A4 /* Project2 Clark Branden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project2 Clark Branden.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DA62B5216F9F95003703A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84DA62B7216F9F95003703A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84DA62BA216F9F95003703A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84DA62BC216F9F96003703A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84DA62BF216F9F96003703A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +62,50 @@
 		84DA62B4216F9F95003703A4 /* Project2 Clark Branden */ = {
 			isa = PBXGroup;
 			children = (
-				84DA62B5216F9F95003703A4 /* AppDelegate.swift */,
-				84DA62B7216F9F95003703A4 /* ViewController.swift */,
-				84DA62B9216F9F95003703A4 /* Main.storyboard */,
-				84DA62BC216F9F96003703A4 /* Assets.xcassets */,
-				84DA62BE216F9F96003703A4 /* LaunchScreen.storyboard */,
-				84DA62C1216F9F96003703A4 /* Info.plist */,
+				84DA62CC216FA016003703A4 /* Model */,
+				84DA62CB216FA012003703A4 /* View */,
+				84DA62CA216FA004003703A4 /* Controller */,
+				84DA62C7216F9FCF003703A4 /* Supporting Files */,
 			);
 			path = "Project2 Clark Branden";
+			sourceTree = "<group>";
+		};
+		84DA62C7216F9FCF003703A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DA62C1216F9F96003703A4 /* Info.plist */,
+				84DA62BE216F9F96003703A4 /* LaunchScreen.storyboard */,
+				84DA62B5216F9F95003703A4 /* AppDelegate.swift */,
+				84DA62BC216F9F96003703A4 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84DA62CA216FA004003703A4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84D0B5CF2178D80C00031D69 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84DA62CB216FA012003703A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84DA62B9216F9F95003703A4 /* Main.storyboard */,
+				84692C59217E8A19008A904A /* TempleCardCell.swift */,
+				84D0B5C92178397700031D69 /* TempleCardView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		84DA62CC216FA016003703A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84D0B5CB21783DB200031D69 /* TempleCard.swift */,
+				84D0B5CD2178426900031D69 /* TempleDeck.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DA62B8216F9F95003703A4 /* ViewController.swift in Sources */,
 				84DA62B6216F9F95003703A4 /* AppDelegate.swift in Sources */,
+				84D0B5CE2178426900031D69 /* TempleDeck.swift in Sources */,
+				84692C5A217E8A19008A904A /* TempleCardCell.swift in Sources */,
+				84D0B5D02178D80C00031D69 /* ViewController.swift in Sources */,
+				84D0B5CC21783DB200031D69 /* TempleCard.swift in Sources */,
+				84D0B5CA2178397700031D69 /* TempleCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
